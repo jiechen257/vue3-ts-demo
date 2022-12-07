@@ -33,7 +33,7 @@ const router = createRouter({
           name: 'RoleView',
           meta: {
             isShow: true,
-            title: '用户列表'
+            title: '角色列表'
           },
           component: () => import('../views/role/role-view.vue')
         },
@@ -42,7 +42,7 @@ const router = createRouter({
           name: 'AuthorityView',
           meta: {
             isShow: true,
-            title: '用户列表'
+            title: '授权列表'
           },
           component: () => import('../views/authority/authority-view.vue')
         }
