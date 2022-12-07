@@ -18,6 +18,14 @@ export function getGoodsList(){
   })
 }
 
+// 用户列表接口
+export function getUserList(){
+  return service({
+      url: "/getUserList",
+      method: "GET"
+  })
+}
+
 // 角色列表接口
 export function getRoleList(){
   return service({
