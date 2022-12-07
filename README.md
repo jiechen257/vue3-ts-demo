@@ -12,3 +12,8 @@ This template should help get you started developing with Vue 3 in Vite.
 原因：一开始用的vscode集成的ui推送的仓库，导致 git remote的地址是 https的
 
 解决：更换git remote地址为git@github.com
+
+# polyfill
+## vue-router的两种传参
+query 相当于 get 请求，页面跳转的时候，可以在地址栏看到请求参数
+params 相当于 post 请求，参数不会再地址栏中显示

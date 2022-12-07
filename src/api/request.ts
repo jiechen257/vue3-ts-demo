@@ -13,7 +13,15 @@ export function login(data: ILoginData) {
 // 商品列表接口
 export function getGoodsList(){
   return service({
-      url: "/getGoodsList",
-      method: "GET"
+    url: "/getGoodsList",
+    method: "GET"
+  })
+}
+
+// 角色列表接口
+export function getRoleList(){
+  return service({
+    url: "/getRoleList",
+    method: "GET"
   })
 }
