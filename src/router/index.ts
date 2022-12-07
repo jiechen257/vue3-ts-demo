@@ -41,7 +41,7 @@ const router = createRouter({
           path: 'authority',
           name: 'AuthorityView',
           meta: {
-            isShow: true,
+            isShow: false,
             title: '授权列表'
           },
           component: () => import('../views/authority/authority-view.vue')
